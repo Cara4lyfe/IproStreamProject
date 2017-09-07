@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="img/temp-icon.jpeg"/>
+    <title>Whatever Our Name is</title>
     <link rel="stylesheet" href="css/stream.css">
-    <title>Stream Interface</title>
+</head>
 <body>
-<div id="banner">
-    OUR OWN BANNER GOES HERE
-</div>
-<div class="wrapper">
-    <table class="right">
-        <tbody>
-        <tr>
-            <td class="cpdate" align="right">
+    <div id="banner">
+        OUR OWN BANNER GOES HERE
+    </div>
+    <div class="wrapper">
+        <table class="right">
+            <tbody>
+            <tr>
+                <td class="cpdate" align="right">
                 <span id="date_txt" class="uportal-text-small">
                     <script language="JavaScript1.2">
                         var months=new Array(13);
@@ -37,67 +37,18 @@
                         document.write(date + ', ' + year);
                     </script>
                 </span>
-            </td>
-        </tr>
-        </tbody>
-    </table>
-</div>
-<div class="wrapper">
-    <iframe
-        class="left"
-        src="http://player.twitch.tv/?channel=aimbotcalvin"
-        height="700"
-        frameborder="0"
-        scrolling="no"
-        allowfullscreen="true">
-    </iframe>
-
-    <iframe
-        class="right"
-        frameborder="0" 
-        scrolling="no" 
-        id="chat_embed" 
-        src="http://www.twitch.tv/aimbotcalvin/chat"
-        height="700">
-    </iframe>
-</div>
-<div class="wrapper">
-    <table class="left">
-        <tbody>
-            <tr>
-                <td id="sideHeader">
-                    Announcement
                 </td>
             </tr>
-            <tr>
-                <td id="sideContent">
-                    <ul>
-                        <li>Today's Topic</li>
-                        <li>Homework Turn In</li>
-                        <li>Assignments</li>
-                    </ul>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <table class="right">
-        <tbody>
-            <tr>
-                <td id="sideHeader">
-                    About This Course
-                </td>
-            </tr>
-            <tr>
-                <td id="sideContent">
-                    <ul>
-                        <li>Prof's Name</li>
-                        <li>Bio</li>
-                        <li>Class Syllabus</li>
-                    </ul>
-                </td>
-            </tr>
-        </tbody>
-</table>
-</div>
+            </tbody>
+        </table>
+    </div>
+    <div class="wrapper">
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </div>
 </body>
 </html>

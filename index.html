@@ -9,6 +9,38 @@
     <title>Stream Interface</title>
 <body>
 <img src="img/banner.jpg" alt="banner" width="100%">
+<br>
+<table>
+    <tbody>
+        <tr>
+            <td class="cpdate" align="right">
+                <span id="date_txt" class="uportal-text-small">
+                    <script language="JavaScript1.2">
+                        var months=new Array(13);
+                        months[1]='January';
+                        months[2]='February';
+                        months[3]='March';
+                        months[4]='April';
+                        months[5]='May';
+                        months[6]='June';
+                        months[7]='July';
+                        months[8]='August';
+                        months[9]='September';
+                        months[10]='October';
+                        months[11]='November';
+                        months[12]='December';
+                        var time=new Date();
+                        var lmonth=months[time.getMonth() + 1];
+                        var date=time.getDate();
+                        var year=time.getFullYear();
+                        document.write(lmonth + ' ');
+                        document.write(date + ', ' + year);
+                    </script>
+                </span>
+            </td>
+        </tr>
+    </tbody>
+</table>
 <div class="wrapper">
     <iframe
         class="left"

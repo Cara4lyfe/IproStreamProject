@@ -41,3 +41,12 @@ body {font-family: Verdana,sans-serif;margin:0}
     font-size: 11px;
     padding: 5px;
 }
+.cpdate {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
+}
+.uportal-text-small {
+    color: Black;
+    font-family: verdana, helvetica, arial, sans-serif;
+    font-size: 10px;
+}

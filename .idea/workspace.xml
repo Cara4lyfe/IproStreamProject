@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="aed3f947-0b24-4d6d-aa7a-6e205971a4aa" name="Default" comment="" />
+=======
+    <list default="true" id="bc2c7f8d-dc19-4969-9975-e523a5ed9507" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
+>>>>>>> 8eb6a176d0c13f94d87c12b38917c3464b1a1f1f
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +25,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+<<<<<<< HEAD
   <component name="ProjectFrameBounds">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
+=======
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+>>>>>>> 8eb6a176d0c13f94d87c12b38917c3464b1a1f1f
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -40,6 +52,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -63,6 +76,11 @@
       </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
+=======
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+>>>>>>> 8eb6a176d0c13f94d87c12b38917c3464b1a1f1f
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -86,20 +104,36 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="aed3f947-0b24-4d6d-aa7a-6e205971a4aa" name="Default" comment="" />
       <created>1504747580889</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1504747580889</updated>
       <workItem from="1504747583060" duration="249000" />
+=======
+      <changelist id="bc2c7f8d-dc19-4969-9975-e523a5ed9507" name="Default" comment="" />
+      <created>1504747672532</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1504747672532</updated>
+      <workItem from="1504747676478" duration="13000" />
+>>>>>>> 8eb6a176d0c13f94d87c12b38917c3464b1a1f1f
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="13000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+>>>>>>> 8eb6a176d0c13f94d87c12b38917c3464b1a1f1f
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -120,9 +154,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+<<<<<<< HEAD
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+=======
+>>>>>>> 8eb6a176d0c13f94d87c12b38917c3464b1a1f1f
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>

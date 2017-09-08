@@ -9,14 +9,21 @@ body {font-family: Verdana,sans-serif;margin:0}
 .wrapper{
     overflow:auto;
 }
-
+#mleft{
+    float:left;
+    width:20%;
+}
+#mright{
+    float:right;
+    width:80%;
+}
 .left{
     float:left;
     width:70%;
 }
 #banner{
     background-color: #102347;
-    height: 70px;
+    height: 20px;
     width: 100%;
 }
 .mostRight{
@@ -72,14 +79,14 @@ li.nav{
 
 li a {
     display: block;
-    color: white;
+    color: white;;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #1d2d87;
 }
 
 .border {
@@ -95,4 +102,24 @@ li a:hover {
     border-right-width: 1px;
     border-left-width: 1px;
     border-color: #999999;
+}
+.vertical-menu {
+    width: 100%;
+}
+
+.vertical-menu a {
+    background-color: #102350;
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #1d2e92;
+}
+
+.vertical-menu a.active {
+    background-color: #102347;
+    color: white;
 }

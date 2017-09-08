@@ -13,157 +13,35 @@
     <div class="wrapper">
         <ul class="nav">
             <li class="nav"><a class="active" href="#home">Home</a></li>
-            <li class="nav"><a href="stream.html">Stream Page</a></li>
+            <li class="nav"><a href="stream.html">Stream</a></li>
             <li class="nav"><a>Profile</a></li>
             <li class="nav"><a>About</a></li>
             <li class="mostRight"><a>Login</a></li>
         </ul>
     </div>
     <div class="wrapper">
-        <table class="right">
-            <tbody>
-            <tr>
-                <td class="cpdate" align="right">
-                <span id="date_txt" class="uportal-text-small">
-                    <script language="JavaScript1.2">
-                        var months=new Array(13);
-                        months[1]='January';
-                        months[2]='February';
-                        months[3]='March';
-                        months[4]='April';
-                        months[5]='May';
-                        months[6]='June';
-                        months[7]='July';
-                        months[8]='August';
-                        months[9]='September';
-                        months[10]='October';
-                        months[11]='November';
-                        months[12]='December';
-                        var time=new Date();
-                        var lmonth=months[time.getMonth() + 1];
-                        var date=time.getDate();
-                        var year=time.getFullYear();
-                        document.write(lmonth + ' ');
-                        document.write(date + ', ' + year);
-                    </script>
-                </span>
-                </td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="wrapper">
+        <div class="vertical-menu" id="mleft">
+            <a href="#" class="active">Home</a>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 5</a>
+            <a href="#">Link 6</a>
+            <a href="#">Link 7</a>
+            <a href="#">Link 8</a>
+            <a href="#">Link 9</a>
+            <a href="#">Link 10</a>
+            <a href="#">Link 11</a>
+            <a href="#">Link 12</a>
+        </div>
+        <div id="mright">
         <table>
             <tbody>
-                <tr class="uportal-background-content">
-                    <td valign="top" width="20%">
-                        <table width="100%" id="channel" cellspacing="0" cellpadding="0" border="0" align="center">
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <div class="border">
-                                            <table width="100%" cellspacing="0" cellpadding="3" border="0" align="center">
-                                                <tbody>
-                                                <tr>
-                                                    <td id="sideHeader">
-                                                        Channels you followed
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td id="sideContent">
-                                                        <ul>
-                                                            <li>Channel 1</li>
-                                                            <li>Channel 2</li>
-                                                            <li>Channel 3</li>
-                                                            <li>Channel 4</li>
-                                                            <li>Channel 5</li>
-                                                            <li>Channel 6</li>
-                                                        </ul>
-                                                    </td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <br>
-                        <table width="100%" id="channel" cellspacing="0" cellpadding="0" border="0" align="center">
-                            <tbody>
-                            <tr>
-                                <td>
-                                    <div class="border">
-                                        <table width="100%" cellspacing="0" cellpadding="3" border="0" align="center">
-                                            <tbody>
-                                            <tr>
-                                                <td id="sideHeader">
-                                                    Newest Announcement
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td id="sideContent">
-                                                    <ul>
-                                                        <li>qwe</li>
-                                                        <li>qwe</li>
-                                                        <li>qwe</li>
-                                                        <li>qwe</li>
-                                                        <li>qwe</li>
-                                                        <li>qwe</li>
-                                                        <li>qwe</li>
-                                                        <li>qwe</li>
-                                                        <li>qwe</li>
-                                                        <li>qwe</li>
-                                                        <li>qwe</li>
-                                                        <li>qwe</li>
-                                                        <li>qwe</li>
-                                                        <li>qwe</li>
-                                                        <li>qwe</li>
-                                                        <li>qwe</li>
-                                                        <li>qwe</li>
-                                                        <li>qwe</li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                        <br>
-                        <table width="100%" id="channel" cellspacing="0" cellpadding="0" border="0" align="center">
-                            <tbody>
-                            <tr>
-                                <td>
-                                    <div class="border">
-                                        <table width="100%" cellspacing="0" cellpadding="3" border="0" align="center">
-                                            <tbody>
-                                            <tr>
-                                                <td id="sideHeader">
-
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td id="sideContent">
-                                                    <ul>
-                                                        <a href="http://blackboard.iit.edu">Go to BB</a>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </td>
+                <tr class="uportal-text-small">
                     <td class="vrule" width="1">
                         <img height="1" width="15">
                     </td>
-                    <td valign="top" width="40%">
+                    <td valign="top" width="50%">
                         <table width="100%" id="channel" cellspacing="0" cellpadding="0" border="0" align="center">
                             <tbody>
                             <tr>
@@ -219,7 +97,7 @@
                     <td class="vrule" width="1">
                         <img height="1" width="15">
                     </td>
-                    <td valign="top" width="40%">
+                    <td valign="top" width="50%">
                         <table width="100%" id="channel" cellspacing="0" cellpadding="0" border="0" align="center">
                             <tbody>
                             <tr>
@@ -283,6 +161,40 @@
                         </table>
                     </td>
                 </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+    <div class="wrapper">
+        <table class="right">
+            <tbody>
+            <tr>
+                <td class="cpdate" align="right">
+                <span id="date_txt" class="uportal-text-small">
+                    <script language="JavaScript1.2">
+                        var months=new Array(13);
+                        months[1]='January';
+                        months[2]='February';
+                        months[3]='March';
+                        months[4]='April';
+                        months[5]='May';
+                        months[6]='June';
+                        months[7]='July';
+                        months[8]='August';
+                        months[9]='September';
+                        months[10]='October';
+                        months[11]='November';
+                        months[12]='December';
+                        var time=new Date();
+                        var lmonth=months[time.getMonth() + 1];
+                        var date=time.getDate();
+                        var year=time.getFullYear();
+                        document.write(lmonth + ' ');
+                        document.write(date + ', ' + year);
+                    </script>
+                </span>
+                </td>
+            </tr>
             </tbody>
         </table>
     </div>
